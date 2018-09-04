@@ -39,8 +39,10 @@ jspm_packages
 # Optional REPL history
 .node_repl_history
 
-# IntelliJ users
-.idea
+credentials.local.yml
 
-# Don't toy with settings in VS Code
-.vscode/settings.json
+.npmrc
+
+infrastructure/stack-outputs.yml
+
+iopipe_handlers
