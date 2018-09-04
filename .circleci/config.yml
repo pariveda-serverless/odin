@@ -101,7 +101,7 @@ workflows:
           <<: *filter-feature-branches
       - deploy-branch:
           <<: *filter-feature-branches
-          context: manwaring-aws
+          context: pariveda-serverless-aws
           requires:
             - install
 
@@ -111,6 +111,6 @@ workflows:
           <<: *filter-master
       - deploy-automation:
           <<: *filter-master
-          context: manwaring-aws
+          context: pariveda-serverless-aws
           requires:
             - install
