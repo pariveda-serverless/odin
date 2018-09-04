@@ -57,15 +57,15 @@ Another approach is to let Odin empty your S3 buckets for you prior to calling t
 
 Murray, Alexander (1874). Manual of Mythology : Greek and Roman, Norse, and Old German, Hindoo and Egyptian Mythology. London, Asher and Co. This illustration is from plate XXXV. Digitized version of the book by the Internet Archive, https://archive.org/details/manualofmytholog00murruoft Published earlier in Reusch, Rudolf Friedrich. 1865. Die nordischen Göttersagen.
 
-[build-badge]: https://circleci.com/gh/manwaring/odin.svg?style=shield&circle-token=9013ebb3f280856ee64dcaa261e6b3b46c7b7b77
-[build-badge-url]: https://circleci.com/gh/manwaring/odin
-[dependency-badge]: https://david-dm.org/manwaring/odin.svg
-[dependency-badge-url]: https://david-dm.org/manwaring/odin
-[dev-dependency-badge]: https://david-dm.org/manwaring/odin/dev-status.svg
-[dev-dependency-badge-url]: https://david-dm.org/manwaring/odin?type=dev
+[build-badge]: https://circleci.com/gh/pariveda-serverless/odin.svg?style=shield&circle-token=9013ebb3f280856ee64dcaa261e6b3b46c7b7b77
+[build-badge-url]: https://circleci.com/gh/pariveda-serverless/odin
+[dependency-badge]: https://david-dm.org/pariveda-serverless/odin.svg
+[dependency-badge-url]: https://david-dm.org/pariveda-serverless/odin
+[dev-dependency-badge]: https://david-dm.org/pariveda-serverless/odin/dev-status.svg
+[dev-dependency-badge-url]: https://david-dm.org/pariveda-serverless/odin?type=dev
 [formatter-badge]: https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square
 [formatter-badge-url]: #badge
-[license-badge]: https://img.shields.io/github/license/manwaring/odin.svg
-[license-badge-url]: https://github.com/manwaring/odin
-[vulnerability-badge]: https://snyk.io/test/github/manwaring/odin/badge.svg?targetFile=package.json
-[vulnerability-badge-url]: https://snyk.io/test/github/manwaring/odin?targetFile=package.json
+[license-badge]: https://img.shields.io/github/license/pariveda-serverless/odin.svg
+[license-badge-url]: https://github.com/pariveda-serverless/odin
+[vulnerability-badge]: https://snyk.io/test/github/pariveda-serverless/odin/badge.svg?targetFile=package.json
+[vulnerability-badge-url]: https://snyk.io/test/github/pariveda-serverless/odin?targetFile=package.json
