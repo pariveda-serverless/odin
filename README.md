@@ -57,7 +57,7 @@ Another approach is to let Odin empty your S3 buckets for you prior to calling t
 
 Murray, Alexander (1874). Manual of Mythology : Greek and Roman, Norse, and Old German, Hindoo and Egyptian Mythology. London, Asher and Co. This illustration is from plate XXXV. Digitized version of the book by the Internet Archive, https://archive.org/details/manualofmytholog00murruoft Published earlier in Reusch, Rudolf Friedrich. 1865. Die nordischen Göttersagen.
 
-[build-badge]: https://circleci.com/gh/pariveda-serverless/odin.svg?style=shield&circle-token=9013ebb3f280856ee64dcaa261e6b3b46c7b7b77
+[build-badge]: https://circleci.com/gh/pariveda-serverless/odin.svg?style=shield&circle-token=06417b3cb8bbfa847377fb93279a66163e83eb26
 [build-badge-url]: https://circleci.com/gh/pariveda-serverless/odin
 [dependency-badge]: https://david-dm.org/pariveda-serverless/odin.svg
 [dependency-badge-url]: https://david-dm.org/pariveda-serverless/odin
