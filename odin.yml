@@ -7,7 +7,7 @@ hourlyRate: cron(0 */1 ? * * *)
 hourlyStaleAfter: 8
 
 # Stages and statuses to retain - consistent regardless of schedule
-stagesToRetain: "['PROD', 'PRODUCTION', 'QA', 'DEVELOPMENT', 'DEV', 'AUTO', 'AUTOMATION', 'INFRA', 'INFRASTRUCTURE', 'COMMON']"
+stagesToRetain: "['PROD', 'PRODUCTION', 'QA', 'AUTO', 'AUTOMATION', 'INFRA', 'INFRASTRUCTURE', 'COMMON']"
 deleteableStatuses: "['CREATE_COMPLETE', 'ROLLBACK_COMPLETE', 'UPDATE_COMPLETE', 'UPDATE_ROLLBACK_COMPLETE']"
 
 # A CloudFormation stack won't delete successfully if there are non-empty
