@@ -4,12 +4,7 @@
   
 </p>
 
-[![Build status][build-badge]][build-badge-url]
-[![Known Vulnerabilities][vulnerability-badge]][vulnerability-badge-url]
-[![Dependency Status][dependency-badge]][dependency-badge-url]
-[![devDependency Status][dev-dependency-badge]][dev-dependency-badge-url]
-[![License][license-badge]][license-badge-url]
-[![Code style][formatter-badge]][formatter-badge-url]
+[![Build status][build-badge]][build-badge-url][![Known Vulnerabilities][vulnerability-badge]][vulnerability-badge-url][![Dependency Status][dependency-badge]][dependency-badge-url][![devDependency Status][dev-dependency-badge]][dev-dependency-badge-url][![License][license-badge]][license-badge-url][![Code style][formatter-badge]][formatter-badge-url]
 
 # Odin
 
@@ -32,12 +27,6 @@ If a stack doesn't match one of the above criteria then it is removed.
 Odin is built with the [Serverless Framework](https://serverless.com/) - see their documentation for more about the tool and how to use it.
 
 To change the frequency with which Odin runs and the settings used to determine whether a stack is eligible for deletion modify the values in [odin.yml](https://github.com/manwaring/odin/blob/master/odin.yml) and redeploy the application.
-
-# Local Debugging
-
-The '.vscode' folder contains settings for making local debugging via [VS Code](https://code.visualstudio.com/) a bit easier, especially if you don't have a Node environment already running or you are running a different version of Node.
-
-See [this README.md](https://github.com/pariveda-serverless/support/blob/master/nodejs/4.3.2/local/README.md) for more on how you can debug Odin with this tool.
 
 # Limitations
 
