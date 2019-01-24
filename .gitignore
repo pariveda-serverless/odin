@@ -45,4 +45,4 @@ credentials.local.yml
 
 infrastructure/stack-outputs.yml
 
-iopipe_handlers
+epsagon_handlers

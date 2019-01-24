@@ -1,6 +1,5 @@
 defaultProfile: personal
-iopipeToken: ${env:IOPIPE_TOKEN, file(infrastructure/credentials.local.yml):IOPIPE_TOKEN}
-logLevel: ${self:custom.properties.logLevel.${self:custom.config.stage}, self:custom.properties.logLevel.default}
+epsagonToken: ${env:EPSAGON_TOKEN, file(infrastructure/credentials.local.yml):EPSAGON_TOKEN}
 profile: ${file(infrastructure/helper.js):profile}
 region: us-east-1
 revision: ${file(infrastructure/helper.js):revision}
