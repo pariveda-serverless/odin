@@ -3,14 +3,9 @@
   "version": "1.0.0",
   "license": "MIT",
   "scripts": {
-    "stack:deploy": "start=$(date +%s); sls deploy && npm run action:summarize -s -- 'deployment' $start",
-    "stack:remove": "start=$(date +%s); sls remove && npm run action:summarize -s -- 'removal' $start",
-    "prestack:deploy": "clear; npm run action:announce -s -- 'deployment'",
-    "prestack:remove": "clear; npm run action:announce -s -- 'removal'",
-    "poststack:remove": "rimraf infrastructure/stack-outputs.yml",
-    "action:announce": "clear; APP_NAME=$npm_package_name node -e 'require(\"./infrastructure/helper.js\").announce()'",
-    "action:summarize": "APP_NAME=$npm_package_name node -e 'require(\"./infrastructure/helper.js\").summarize()'",
-    "js:clean": ""
+    "deploy": "sls deploy",
+    "remove": "sls remove",
+    "postremove": "rimraf infrastructure/stack-outputs.yml"
   },
   "dependencies": {
     "@manwaring/lambda-wrapper": "0.2.1",
