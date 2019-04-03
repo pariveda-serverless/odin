@@ -7,7 +7,7 @@ hourlyRate: cron(0 */1 ? * * *)
 hourlyStaleAfter: 8
 
 # Stages and statuses to retain - consistent regardless of schedule
-namesToRetain: "['EpsagonCloudFormation']"
+namesToRetain: "['EpsagonCloudFormation', 'iopipe-delegation']"
 stagesToRetain: "['PROD', 'PRODUCTION', 'QA', 'AUTO', 'AUTOMATION', 'INFRA', 'INFRASTRUCTURE', 'COMMON']"
 deleteableStatuses: "['CREATE_COMPLETE', 'ROLLBACK_COMPLETE', 'UPDATE_COMPLETE', 'UPDATE_ROLLBACK_COMPLETE']"
 
